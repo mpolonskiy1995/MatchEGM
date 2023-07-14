@@ -1,0 +1,2 @@
+datatype,transform,mae,modelSeed,learning_rate,optimizer,blocks,padding,stride,kernel_size,modelname,mse,r2,num_epochs,num_retraining_epochs,tbdir
+random_pearson,transform_padding,0.136074960231781,84,0.0192996034452025,Adam,4,4,2,7,allDataModel,0.05625927448272705,0.8374407291412354,74,29,runs\Jul08_03-41-15_CAD

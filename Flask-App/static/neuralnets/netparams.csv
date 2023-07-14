@@ -1,0 +1,2 @@
+model,datatype,transform,mae,modelSeed,learning_rate,optimizer,blocks,padding,stride,kernel_size,num_epochs,modelname,num_retraining_epochs
+MatchEGMNetwork,random_pearson,transform_padding,0.13607496,84,0.019299603,Adam,4,4,2,7,74,MatchEGMNetwork,29

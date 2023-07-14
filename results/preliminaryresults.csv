@@ -1,0 +1,3 @@
+datatype,transform,mae,modelSeed,learning_rate,optimizer,blocks,padding,stride,kernel_size
+pearson,transform_padding,0.2660861611366272,73,0.03389392336221766,RMSprop,3,2,4,5
+pearson,transform_resize,0.31070560216903687,35,0.000914846846691922,Adam,3,6,6,7

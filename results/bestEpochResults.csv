@@ -1,0 +1,2 @@
+datatype,transform,mae,modelSeed,learning_rate,optimizer,blocks,padding,stride,kernel_size,modelname,val_mae,val_r2,val_mse,val_mae_epoch,val_max_epoch,real_mae,real_r2,real_mse,real_mae_epoch,real_max_epoch,tbdir
+random_pearson,transform_padding,0.144018292427063,84,0.0192996034452025,Adam,4,4,2,7,bestArtificialModel,0.030604137107729912,0.9920677542686462,0.002551019424572587,223,223,0.136074960231781,0.8374407291412354,0.05625927448272705,74,74,runs\Jul08_00-13-02_CAD

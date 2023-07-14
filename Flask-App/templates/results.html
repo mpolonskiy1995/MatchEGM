@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<table class="table">
+    <tr>
+        {% for col in column_names %}
+        <th scope="col">{{col}}</th>
+        {% endfor %}
+    </tr>
+    {% for row in row_data %}
+    <tr scope="row">
+        {% for col, row_ in zip(column_names, row) %}
+        {% if col in ["img", "template"] %}
+        <td>
+        <img src={{row_}} class="img-fluid img-thumbnail" alt={{row_}}>
+        </td>
+        {% else %}
+        <td>{{row_}}</td>
+        {% endif %}
+        {% endfor %}
+    </tr>
+    {% endfor %}
+
+</table>
+
+<script>
+
+</script>
+
+{% endblock %}
+
+
